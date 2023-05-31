@@ -40,7 +40,8 @@ public class Chatbot {
         //add new a line here.
         System.out.println(String.format("\n%s, that's great! Nice chatting with you %s. I have to log off now. See ya!", favoriteProgrammingLanguage, userName));
         
-        //close scanner. 
+        //close scanner.
+        scanner.close();
 
         
     }
